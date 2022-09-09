@@ -9,7 +9,7 @@ from flask_sqlalchemy import SQLAlchemy
 app = Flask(__name__)
 cors = CORS(app)
 
-app.config["SQLALCHEMY_DATABASE_URI"] = "postgresql://postgres:cRX8POI1@localhost:5432/Candidatos"
+app.config["SQLALCHEMY_DATABASE_URI"] = "postgresql://postgres:qwert@localhost:5432/Candidatos"
 
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 SQLAlchemy(app)
